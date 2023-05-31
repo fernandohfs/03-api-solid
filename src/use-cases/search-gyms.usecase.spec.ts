@@ -6,7 +6,7 @@ import { SearchGymsUseCase } from './search-gyms.usecase'
 let gymsRepository: InMemoryGymsRepository
 let sut: SearchGymsUseCase
 
-describe('Fetch User Check-ins History Use Case', () => {
+describe('Search Gyms Use Case', () => {
   beforeEach(async () => {
     gymsRepository = new InMemoryGymsRepository()
     sut = new SearchGymsUseCase(gymsRepository)
